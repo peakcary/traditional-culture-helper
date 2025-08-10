@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "文化分析",
+  "usingComponents": {
+    "wuxing-radar": "../../components/WuxingRadar"
+  }
+}

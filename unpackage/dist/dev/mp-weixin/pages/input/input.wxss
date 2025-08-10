@@ -1,0 +1,153 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 - 自定义主题 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container.data-v-5f77f353 {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 40rpx 30rpx;
+}
+.header.data-v-5f77f353 {
+  text-align: center;
+  color: white;
+  margin-bottom: 60rpx;
+}
+.header .title.data-v-5f77f353 {
+  font-size: 48rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.header .subtitle.data-v-5f77f353 {
+  font-size: 26rpx;
+  opacity: 0.8;
+  line-height: 1.4;
+}
+.form-section.data-v-5f77f353 {
+  background: white;
+  border-radius: 20rpx;
+  padding: 40rpx 30rpx;
+  margin-bottom: 30rpx;
+  box-shadow: 0 8rpx 25rpx rgba(0, 0, 0, 0.1);
+}
+.form-section .section-title.data-v-5f77f353 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 30rpx;
+}
+.gender-selector.data-v-5f77f353 {
+  display: flex;
+  gap: 30rpx;
+}
+.gender-selector .gender-item.data-v-5f77f353 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30rpx;
+  border: 2rpx solid #ecf0f1;
+  border-radius: 15rpx;
+  transition: all 0.3s ease;
+}
+.gender-selector .gender-item.active.data-v-5f77f353 {
+  border-color: #3498db;
+  background-color: rgba(52, 152, 219, 0.1);
+}
+.gender-selector .gender-item .gender-icon.data-v-5f77f353 {
+  font-size: 40rpx;
+  margin-bottom: 10rpx;
+}
+.gender-selector .gender-item .gender-text.data-v-5f77f353 {
+  font-size: 28rpx;
+  color: #2c3e50;
+  font-weight: bold;
+}
+.calendar-selector.data-v-5f77f353 {
+  display: flex;
+  gap: 30rpx;
+}
+.calendar-selector .calendar-item.data-v-5f77f353 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30rpx;
+  border: 2rpx solid #ecf0f1;
+  border-radius: 15rpx;
+  transition: all 0.3s ease;
+}
+.calendar-selector .calendar-item.active.data-v-5f77f353 {
+  border-color: #e67e22;
+  background-color: rgba(230, 126, 34, 0.1);
+}
+.calendar-selector .calendar-item .calendar-text.data-v-5f77f353 {
+  font-size: 30rpx;
+  color: #2c3e50;
+  font-weight: bold;
+  margin-bottom: 8rpx;
+}
+.calendar-selector .calendar-item .calendar-desc.data-v-5f77f353 {
+  font-size: 24rpx;
+  color: #7f8c8d;
+}
+.date-selector .date-display.data-v-5f77f353, .date-selector .time-display.data-v-5f77f353, .time-selector .date-display.data-v-5f77f353, .time-selector .time-display.data-v-5f77f353 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25rpx 30rpx;
+  background-color: #f8f9fa;
+  border-radius: 15rpx;
+  border: 2rpx solid #ecf0f1;
+}
+.date-selector .date-display .date-text.data-v-5f77f353, .date-selector .date-display .time-text.data-v-5f77f353, .date-selector .time-display .date-text.data-v-5f77f353, .date-selector .time-display .time-text.data-v-5f77f353, .time-selector .date-display .date-text.data-v-5f77f353, .time-selector .date-display .time-text.data-v-5f77f353, .time-selector .time-display .date-text.data-v-5f77f353, .time-selector .time-display .time-text.data-v-5f77f353 {
+  font-size: 30rpx;
+  color: #2c3e50;
+  font-weight: 500;
+}
+.date-selector .date-display .date-arrow.data-v-5f77f353, .date-selector .date-display .time-arrow.data-v-5f77f353, .date-selector .time-display .date-arrow.data-v-5f77f353, .date-selector .time-display .time-arrow.data-v-5f77f353, .time-selector .date-display .date-arrow.data-v-5f77f353, .time-selector .date-display .time-arrow.data-v-5f77f353, .time-selector .time-display .date-arrow.data-v-5f77f353, .time-selector .time-display .time-arrow.data-v-5f77f353 {
+  font-size: 32rpx;
+}
+.time-note.data-v-5f77f353 {
+  margin-top: 20rpx;
+}
+.time-note .note-text.data-v-5f77f353 {
+  font-size: 24rpx;
+  color: #7f8c8d;
+  line-height: 1.4;
+}
+.submit-section.data-v-5f77f353 {
+  margin-top: 60rpx;
+}
+.submit-section .submit-btn.data-v-5f77f353 {
+  width: 100%;
+  background: linear-gradient(45deg, #3498db, #2ecc71);
+  color: white;
+  font-size: 36rpx;
+  font-weight: bold;
+  padding: 30rpx;
+  border-radius: 50rpx;
+  border: none;
+  box-shadow: 0 8rpx 25rpx rgba(52, 152, 219, 0.3);
+}
+.submit-section .submit-btn.data-v-5f77f353:disabled {
+  background: #bdc3c7;
+  box-shadow: none;
+}

@@ -37,25 +37,5 @@
     "condition": {
         "current": 0,
         "list": []
-    },
-    "tabBar": {
-        "color": "#7A7E83",
-        "selectedColor": "#3cc51f",
-        "borderStyle": "black",
-        "backgroundColor": "#ffffff",
-        "list": [
-            {
-                "pagePath": "pages/index/index",
-                "iconPath": "static/tab-home.png",
-                "selectedIconPath": "static/tab-home-active.png",
-                "text": "首页"
-            },
-            {
-                "pagePath": "pages/history/history",
-                "iconPath": "static/tab-history.png",
-                "selectedIconPath": "static/tab-history-active.png",
-                "text": "记录"
-            }
-        ]
     }
 }

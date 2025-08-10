@@ -401,6 +401,7 @@ onMounted(() => {
     setTimeout(() => {
       uni.navigateBack()
     }, 1500)
+  }
 })
 </script>
 
