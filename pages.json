@@ -1,0 +1,61 @@
+{
+    "pages": [
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "传统文化助手"
+            }
+        },
+        {
+            "path": "pages/input/input",
+            "style": {
+                "navigationBarTitleText": "文化体验"
+            }
+        },
+        {
+            "path": "pages/result/result",
+            "style": {
+                "navigationBarTitleText": "文化分析"
+            }
+        },
+        {
+            "path": "pages/history/history",
+            "style": {
+                "navigationBarTitleText": "学习记录"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black", 
+        "navigationBarTitleText": "传统文化助手",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8",
+        "app-plus": {
+            "background": "#efeff4"
+        }
+    },
+    "condition": {
+        "current": 0,
+        "list": []
+    },
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#3cc51f",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "static/tab-home.png",
+                "selectedIconPath": "static/tab-home-active.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/history/history",
+                "iconPath": "static/tab-history.png",
+                "selectedIconPath": "static/tab-history-active.png",
+                "text": "记录"
+            }
+        ]
+    }
+}

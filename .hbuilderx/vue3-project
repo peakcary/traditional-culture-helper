@@ -1,0 +1,10 @@
+Vue3 Project Marker File
+
+This file indicates that this is a Vue 3 project.
+It should be recognized by HBuilderX as Vue 3.
+
+Project Configuration:
+- Vue Version: 3.4.15
+- Framework: uni-app
+- State Management: Pinia
+- Build Tool: Vite

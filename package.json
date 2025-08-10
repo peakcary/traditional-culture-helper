@@ -1,0 +1,79 @@
+{
+  "name": "traditional-culture-helper",
+  "version": "1.0.0",
+  "description": "中华传统文化学习体验工具，传承国学精粹，弘扬传统文化。",
+  "main": "main.js",
+  "scripts": {
+    "serve": "npm run dev:h5",
+    "build": "npm run build:h5",
+    "build:app-plus": "cross-env NODE_ENV=production UNI_PLATFORM=app-plus vue-cli-service uni-build",
+    "build:custom": "cross-env NODE_ENV=production uniapp-cli custom",
+    "build:h5": "cross-env NODE_ENV=production UNI_PLATFORM=h5 vue-cli-service uni-build",
+    "build:mp-alipay": "cross-env NODE_ENV=production UNI_PLATFORM=mp-alipay vue-cli-service uni-build",
+    "build:mp-baidu": "cross-env NODE_ENV=production UNI_PLATFORM=mp-baidu vue-cli-service uni-build",
+    "build:mp-kuaishou": "cross-env NODE_ENV=production UNI_PLATFORM=mp-kuaishou vue-cli-service uni-build",
+    "build:mp-qq": "cross-env NODE_ENV=production UNI_PLATFORM=mp-qq vue-cli-service uni-build",
+    "build:mp-toutiao": "cross-env NODE_ENV=production UNI_PLATFORM=mp-toutiao vue-cli-service uni-build",
+    "build:mp-weixin": "cross-env NODE_ENV=production UNI_PLATFORM=mp-weixin vue-cli-service uni-build",
+    "dev:app-plus": "cross-env NODE_ENV=development UNI_PLATFORM=app-plus vue-cli-service uni-serve",
+    "dev:custom": "cross-env NODE_ENV=development uniapp-cli custom",
+    "dev:h5": "cross-env NODE_ENV=development UNI_PLATFORM=h5 vue-cli-service uni-serve",
+    "dev:mp-alipay": "cross-env NODE_ENV=development UNI_PLATFORM=mp-alipay vue-cli-service uni-serve",
+    "dev:mp-baidu": "cross-env NODE_ENV=development UNI_PLATFORM=mp-baidu vue-cli-service uni-serve",
+    "dev:mp-kuaishou": "cross-env NODE_ENV=development UNI_PLATFORM=mp-kuaishou vue-cli-service uni-serve",
+    "dev:mp-qq": "cross-env NODE_ENV=development UNI_PLATFORM=mp-qq vue-cli-service uni-serve",
+    "dev:mp-toutiao": "cross-env NODE_ENV=development UNI_PLATFORM=mp-toutiao vue-cli-service uni-serve",
+    "dev:mp-weixin": "cross-env NODE_ENV=development UNI_PLATFORM=mp-weixin vue-cli-service uni-serve",
+    "info": "node node_modules/@dcloudio/vue-cli-plugin-uni/commands/info.js",
+    "test:android": "cross-env UNI_PLATFORM=app-plus UNI_OS_NAME=android jest",
+    "test:h5": "cross-env UNI_PLATFORM=h5 jest",
+    "test:ios": "cross-env UNI_PLATFORM=app-plus UNI_OS_NAME=ios jest",
+    "test:mp-baidu": "cross-env UNI_PLATFORM=mp-baidu jest",
+    "test:mp-weixin": "cross-env UNI_PLATFORM=mp-weixin jest"
+  },
+  "keywords": [
+    "traditional",
+    "culture",
+    "chinese",
+    "education",
+    "miniprogram",
+    "uniapp",
+    "heritage"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@dcloudio/uni-app": "^3.0.0",
+    "@dcloudio/uni-mp-weixin": "^3.0.0", 
+    "@dcloudio/uni-h5": "^3.0.0",
+    "@dcloudio/uni-components": "^3.0.0",
+    "vue": "^3.4.15",
+    "pinia": "^2.1.7"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.0.0",
+    "@dcloudio/uni-automator": "^3.0.0",
+    "@dcloudio/uni-cli-shared": "^3.0.0",
+    "@dcloudio/vue-cli-plugin-hbuilderx": "^3.0.0",
+    "@dcloudio/vue-cli-plugin-uni": "^3.0.0",
+    "@dcloudio/vue-cli-plugin-uni-optimize": "^3.0.0",
+    "@dcloudio/webpack-uni-mp-loader": "^3.0.0",
+    "@dcloudio/webpack-uni-pages-loader": "^3.0.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "babel-plugin-import": "^1.13.3",
+    "cross-env": "^7.0.3",
+    "jest": "^25.4.0",
+    "mini-types": "*",
+    "miniprogram-api-typings": "*",
+    "postcss-comment": "^2.0.0",
+    "typescript": "^5.0.0"
+  },
+  "browserslist": [
+    "Android >= 4.4",
+    "ios >= 9"
+  ],
+  "uni-app": {
+    "scripts": {}
+  }
+}

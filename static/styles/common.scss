@@ -1,0 +1,100 @@
+/* 公共样式文件 */
+
+/* 颜色变量 */
+$primary-color: #2c3e50;
+$secondary-color: #3498db;
+$accent-color: #e67e22;
+$success-color: #27ae60;
+$warning-color: #f39c12;
+$danger-color: #e74c3c;
+$light-gray: #ecf0f1;
+$dark-gray: #7f8c8d;
+
+/* 常用布局 */
+.container {
+  padding: 20rpx;
+  background-color: #fff;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 文本样式 */
+.text-primary {
+  color: $primary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.text-muted {
+  color: $dark-gray;
+  font-size: 24rpx;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+/* 按钮样式 */
+.btn-primary {
+  background-color: $primary-color;
+  color: #fff;
+  border-radius: 8rpx;
+  padding: 20rpx 40rpx;
+  border: none;
+  font-size: 32rpx;
+}
+
+.btn-secondary {
+  background-color: $secondary-color;
+  color: #fff;
+  border-radius: 8rpx;
+  padding: 20rpx 40rpx;
+  border: none;
+  font-size: 32rpx;
+}
+
+/* 卡片样式 */
+.card {
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin: 20rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.1);
+}
+
+/* 间距 */
+.mt-10 { margin-top: 10rpx; }
+.mt-20 { margin-top: 20rpx; }
+.mt-30 { margin-top: 30rpx; }
+.mb-10 { margin-bottom: 10rpx; }
+.mb-20 { margin-bottom: 20rpx; }
+.mb-30 { margin-bottom: 30rpx; }
+.ml-10 { margin-left: 10rpx; }
+.mr-10 { margin-right: 10rpx; }
